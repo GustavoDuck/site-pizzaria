@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buonna Pizzaria</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">Buonna</div>
+      <ul class="menu">
+        <li>Inicio</li>
+        <li>Quem Somos?</li>
+        <li>Faça seu Pedido</li>
+      </ul>
+      <div class="search">
+        <svg
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 20 20"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+          />
+        </svg>
+      </div>
+    </header>
+
+    <!-- slider -->
+    <div class="slider">
+      <!-- list Items -->
+      <div class="list">
+        <div class="item active">
+          <img
+            src="https://i.pinimg.com/564x/95/ec/c2/95ecc2e059692a2d7d7e40b15f8b211a.jpg"
+          />
+          <div class="content">
+            <p>PIZZA</p>
+            <h2>Calabresa</h2>
+            <p>
+              Molho, Mussarela, Calabresa, Cebola, Azeitona e Orégano R$ 49.00
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/12/3a/24/123a244aa000ec7f91dd784375bd65d7.jpg"
+          />
+          <div class="content">
+            <p>PIZZA</p>
+            <h2>4 queijos</h2>
+            <p>
+              Molho, Mussarela, Provolone, Parmesão, Gorgonzola, Tomate,
+              Azeitona e Orégano R$ 52,00
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/80/e5/9d/80e59ddd335067ac9aad370dc04917b9.jpg"
+          />
+          <div class="content">
+            <p>PIZZA</p>
+            <h2>Italiana</h2>
+            <p>
+              Molho, Mussarela, Catupiry, Salaminho, Azeitona e Orégano R$ 59,99
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/2e/a3/a1/2ea3a1f9d8aa7a082b94c96e2216e7ba.jpg"
+          />
+          <div class="content">
+            <p>PIZZA</p>
+            <h2>Presunto</h2>
+            <p>
+              Molho, Mussarela, Prersunto, Tomate, Azeitona e Orégano R$ 51,00
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/d9/5d/aa/d95daa69ef48405f2365e8955154ef1c.jpg"
+          />
+          <div class="content">
+            <p>REFRIGERANTE</p>
+            <h2>Coca Cola 2L</h2>
+            <p>R$ 10,00</p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/99/70/29/997029c827d5bbd693f570196687487d.jpg"
+          />
+          <div class="content">
+            <p>REFRIGERANTE</p>
+            <h2>Coca Cola 1,5L</h2>
+            <p>R$ 7,00</p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/b7/36/10/b73610fb8e20886bc1c61e27675c26a7.jpg"
+          />
+          <div class="content">
+            <p>REFRIGERANTE</p>
+            <h2>Coca Lata</h2>
+            <p>R$ 4,00</p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/b7/6e/30/b76e30109f4208a4a4482f83b7e53271.jpg"
+          />
+          <div class="content">
+            <p>REFRIGERANTE</p>
+            <h2>Fanta Laranja</h2>
+            <p>R$ 7,00</p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/c5/50/76/c55076899c1a14b1903f41e53759394e.jpg"
+          />
+          <div class="content">
+            <p>REFRIGERANTE</p>
+            <h2>Guaraná 2L</h2>
+            <p>R$ 10,00</p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/0b/48/b8/0b48b8c425808a7ef31ebf96258a89a7.jpg"
+          />
+          <div class="content">
+            <p>REFRIGERANTE</p>
+            <h2>Sprite 2L</h2>
+            <p>R$ 7,00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- button arrows -->
+      <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+
+      <!-- thumbnail -->
+      <div class="thumbnail">
+        <div class="item active">
+          <img
+            src="https://i.pinimg.com/564x/95/ec/c2/95ecc2e059692a2d7d7e40b15f8b211a.jpg"
+          />
+          <div class="content">CALABRESA</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/12/3a/24/123a244aa000ec7f91dd784375bd65d7.jpg"
+          />
+          <div class="content">QUATRO QUEIJOS</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/80/e5/9d/80e59ddd335067ac9aad370dc04917b9.jpg"
+          />
+          <div class="content">ITALIANA</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/2e/a3/a1/2ea3a1f9d8aa7a082b94c96e2216e7ba.jpg"
+          />
+          <div class="content">PRESUNTO</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/d9/5d/aa/d95daa69ef48405f2365e8955154ef1c.jpg"
+          />
+          <div class="content">COCA 2L</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/99/70/29/997029c827d5bbd693f570196687487d.jpg"
+          />
+          <div class="content">COCA 1,5L</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/b7/36/10/b73610fb8e20886bc1c61e27675c26a7.jpg"
+          />
+          <div class="content">COCA LATA</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/b7/6e/30/b76e30109f4208a4a4482f83b7e53271.jpg"
+          />
+          <div class="content">Fanta Laranja 2L</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/c5/50/76/c55076899c1a14b1903f41e53759394e.jpg"
+          />
+          <div class="content">Guaraná Antartica 2L</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/0b/48/b8/0b48b8c425808a7ef31ebf96258a89a7.jpg"
+          />
+          <div class="content">Sprite 2L</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="sobre_nos" id="about">
+      <span class="section-subtitle about__initial">Quem Somos?</span>
+      <h2 class="section-title about__initial">
+        A melhor Pizzaria de São Paulo <br />
+        Desde 1910
+      </h2>
+      <p class="about__description">
+        A Pizzaria Buonna Pizza abriu as portas em 1910, fundada pelo pizzaiolo
+        Carmino Corvino quando este veio morar no Brasil, no tradicional bairro
+        paulistano conhecido como Brás.
+      </p>
+    </section>
+
+    <div class="containerForms">
+      <div class="containerPedido">
+        <h3>Faça um pedido</h3>
+        <form class="media-centered">
+          <div class="form-group">
+            <p>Deixe seu número para contato</p>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputName1"
+              placeholder="Digite seu Nome"
+            />
+          </div>
+          <div class="form-numero">
+            <input
+              type="tel"
+              class="form-control"
+              id=""
+              placeholder="Digite seu número"
+            />
+          </div>
+          <div class="form-pedido">
+            <textarea
+              id="pedido"
+              cols="30"
+              rows="10"
+              placeholder="Digite seu pedido"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+      </div>
+
+      <div class="contato">
+        <h3>Contato</h3>
+        <p>
+          <span>WhatsApp: (11)97777-7777</span>
+          <br />
+          <span>Instagram @buonnapizza</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
